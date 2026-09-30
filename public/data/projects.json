@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Automated Semester CGPA Planner",
+    "category": "C++",
+    "description": "A C++ application for calculating semester-wise CGPA with multiple courses, grade scales and credit-hour weighting.",
+    "github": "https://github.com/humerasadaf59-lab/InternGrow_CGPA_Planner"
+  },
+  {
+    "title": "Banking Engine",
+    "category": "C++",
+    "description": "A C++ banking system for simulated transactions, account management, deposits, withdrawals, balance validation and fund transfers.",
+    "github": "https://github.com/humerasadaf59-lab/InternGrow_Task4_BankingEngine"
+  },
+  {
+    "title": "Secure User Authentication System",
+    "category": "C++",
+    "description": "An authentication module with secure login and user-verification logic, including input validation.",
+    "github": "https://github.com/humerasadaf59-lab/InternGrow_Authentication_System"
+  },
+  {
+    "title": "Urban Heat Island Analysis",
+    "category": "AI / Data",
+    "description": "An urban heat analysis tool using the FortGuard Temperature API to identify heat-vulnerable neighborhoods and recommend interventions such as tree planting and cooling centers.",
+    "github": "https://github.com/humerasadaf59-lab/urban-heat-mapper"
+  },
+  {
+    "title": "To-Do List App",
+    "category": "Full Stack",
+    "description": "A task-management application built with React and Node.js, using a REST API for CRUD operations.",
+    "github": "https://github.com/humerasadaf59-lab/to-do-list-app"
+  },
+  {
+    "title": "Research Scout Agent",
+    "category": "AI",
+    "description": "An AI-powered research workflow that discovers sources, analyzes findings, drafts sourced briefs and saves research documents.",
+    "github": "https://github.com/humerasadaf59-lab"
+  },
+  {
+    "title": "Real-Time Collaboration App",
+    "category": "Full Stack",
+    "description": "A live collaboration web application featuring an interactive whiteboard and real-time code editor experience.",
+    "demo": "https://realtime-collaboration-app.vercel.app",
+    "label": "Live Demo",
+    "internship": "CodeAlpha Internship"
+  },
+  {
+    "title": "Pulse Social Platform",
+    "category": "Full Stack",
+    "description": "A modern social platform project built as part of full-stack web development practice during the CodeAlpha internship.",
+    "demo": "https://pulse-social-platform-xi.vercel.app",
+    "label": "Live Demo",
+    "internship": "CodeAlpha Internship"
+  }
+]
