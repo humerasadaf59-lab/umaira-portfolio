@@ -148,7 +148,7 @@ app.post('/api/contact', (req, res) => {
     message,
     createdAt: new Date().toISOString()
   });
-  writeJson(messagesFile, messages);
+  try{writeJson(messagesFile, messages);} catch(e) {console.log("skip write on vercel");}
 
   return res.status(201).json({ success: true, message: 'Thank you! Your message has been received.' });
 });
@@ -166,6 +166,10 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 const PORT = process.env.PORT || 3001;
-if (require.main === module) 
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+}
 module.exports = app;
 
