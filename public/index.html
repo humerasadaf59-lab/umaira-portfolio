@@ -1,97 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Umaira Sadaf — AI Marketing Intern, Web Developer and Computer Science Student.">
-  <title>Umaira Sadaf | AI Marketing & Web Developer</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Umaira Sadaf - Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0a0a1a;color:#fff;line-height:1.6}
+nav{display:flex;justify-content:space-between;padding:20px 5%;background:#0a0a1a;position:sticky;top:0;z-index:100;border-bottom:1px solid #222}
+.logo{font-size:22px;font-weight:bold} .logo span{color:#ffcc00}
+.nav-links a{color:#ccc;margin-left:20px;text-decoration:none} .nav-links a:hover{color:#ffcc00}
+section{padding:60px 5%}
+.hero{text-align:center;padding:100px 5%}
+.hero h1{font-size:48px;margin-bottom:15px} .hero h1 span{color:#ffcc00}
+.hero p{color:#aaa;max-width:600px;margin:0 auto 30px}
+.btn{background:#ffcc00;color:#000;padding:12px 28px;border:none;border-radius:25px;font-weight:bold;cursor:pointer;text-decoration:none;display:inline-block}
+h2{font-size:32px;margin-bottom:40px;text-align:center} h2 span{color:#ffcc00}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.card{background:#15152a;padding:25px;border-radius:12px;border:1px solid #222}
+.card h3{color:#ffcc00;margin-bottom:10px}
+.skill{display:inline-block;background:#15152a;border:1px solid #333;padding:8px 16px;margin:6px;border-radius:20px}
+.project-card{background:#15152a;padding:20px;border-radius:12px;border:1px solid #222}
+.project-card a{color:#ffcc00;text-decoration:none}
+footer{text-align:center;padding:30px;color:#666;border-top:1px solid #222}
+</style>
 </head>
 <body>
-  <header class="site-header">
-    <nav class="navbar container">
-      <a class="logo" href="#home">Umaira <span>Sadaf</span></a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<nav><div class="logo">Umaira <span>Sadaf</span></div><div class="nav-links"><a href="#home">Home</a><a href="#services">Services</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a></div></nav>
 
-  <main>
-    <section class="hero section" id="home">
-      <div class="container hero-grid">
-        <div class="hero-content reveal">
-          <p class="eyebrow">Hello, I'm</p>
-          <h1>Umaira <span>Sadaf</span></h1>
-          <h2><span id="typingText">AI Marketing Intern</span><span class="cursor">|</span></h2>
-          <p class="hero-description">Computer Science student building practical solutions with AI, modern websites, programming and machine learning.</p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#projects">View My Work</a>
-            <a class="btn secondary" href="#contact">Contact Me</a>
-          </div>
-          <div class="quick-links">
-            <a href="mailto:sadaffarid069@gmail.com">Email Me</a>
-            <a href="tel:+923276480080">Call Me</a>
-            <a href="https://github.com/humerasadaf59-lab" target="_blank" rel="noreferrer">GitHub</a>
-          </div>
-        </div>
-        <div class="hero-card reveal">
-          <div class="profile-orbit">AI</div>
-          <h3>Building with Technology & AI</h3>
-          <p>AI Marketing • Web Development • Programming • Machine Learning</p>
-          <div class="mini-stats">
-            <div><strong>6th</strong><span>Semester</span></div>
-            <div><strong>3.84</strong><span>CGPA / 4.00</span></div>
-            <div><strong>AI</strong><span>Focused</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
+<section class="hero" id="home">
+<h1>Hi, I'm <span>Umaira Sadaf</span></h1>
+<p>Full Stack Developer | MERN Stack | Real-Time Applications | Building modern web experiences</p>
+<a href="#projects" class="btn">View My Work</a>
+</section>
 
-    <section class="section" id="about">
-      <div class="container">
-        <div class="section-heading"><p class="eyebrow">Get to know me</p><h2>About <span>Me</span></h2></div>
-        <div class="two-column">
-          <div class="panel reveal"><h3>My Objective</h3><p id="objectiveText">Loading profile...</p></div>
-          <div class="panel reveal"><h3>Education</h3><p><strong>BS Computer Science — 6th Semester</strong></p><p>Government Graduate College, Vehari</p><p>Current CGPA: <strong>3.84 / 4.00</strong></p></div>
-        </div>
-      </div>
-    </section>
+<section id="services"><h2>My <span>Services</span></h2><div class="grid">
+<div class="card"><h3>Web Development</h3><p>Building responsive modern websites using HTML, CSS, JavaScript and React</p></div>
+<div class="card"><h3>Full Stack Apps</h3><p>MERN Stack applications with real-time features and authentication</p></div>
+<div class="card"><h3>UI/UX Design</h3><p>Designing clean and user-friendly interfaces</p></div>
+</div></section>
 
-    <section class="section alt" id="services">
-      <div class="container"><div class="section-heading"><p class="eyebrow">What I can do</p><h2>My <span>Services</span></h2></div><div class="cards" id="servicesGrid"></div></div>
-    </section>
+<section id="experience"><h2>Internship <span>Experience</span></h2><div class="grid">
+<div class="card"><h3>Web Development Intern - CodeAlpha</h3><p>2024 - Present</p><p>Built real-time collaboration app and social platform. Learned Git, GitHub and Vercel deployment.</p></div>
+<div class="card"><h3>Frontend Developer - Lets Grow More</h3><p>2023</p><p>Worked on React.js projects and responsive web design</p></div>
+</div></section>
 
-    <section class="section" id="experience">
-      <div class="container"><div class="section-heading"><p class="eyebrow">My journey</p><h2>Internship <span>Experience</span></h2></div><div id="experienceList" class="timeline"></div></div>
-    </section>
+<section id="skills"><h2>My <span>Skills</span></h2><div style="text-align:center">
+<span class="skill">HTML5</span><span class="skill">CSS3</span><span class="skill">JavaScript</span><span class="skill">React.js</span><span class="skill">Node.js</span><span class="skill">MongoDB</span><span class="skill">Express.js</span><span class="skill">Socket.io</span><span class="skill">Git & GitHub</span><span class="skill">Tailwind CSS</span><span class="skill">Vercel</span><span class="skill">REST APIs</span>
+</div></section>
 
-    <section class="section alt" id="skills">
-      <div class="container"><div class="section-heading"><p class="eyebrow">My toolkit</p><h2>Core <span>Skills</span></h2></div><div class="skill-list" id="skillsList"></div></div>
-    </section>
+<section id="projects"><h2>Selected <span>Work</span></h2><div class="grid">
+<div class="project-card"><h3>Real-Time Collaboration App</h3><p>Full Stack</p><p>A live collaboration web app featuring interactive whiteboard and real-time code editor experience.</p><br><a href="https://realtime-collaboration-app.vercel.app" target="_blank">Live Demo →</a> <small>CodeAlpha Internship</small></div>
+<div class="project-card"><h3>Pulse Social Platform</h3><p>Full Stack</p><p>A modern social platform project built as part of full-stack web development practice during CodeAlpha internship.</p><br><a href="https://pulse-social-platform-xi.vercel.app" target="_blank">Live Demo →</a> <small>CodeAlpha Internship</small></div>
+</div></section>
 
-    <section class="section" id="projects">
-      <div class="container"><div class="section-heading"><p class="eyebrow">Selected work</p><h2>Featured <span>Projects</span></h2></div><div class="filters" id="filters"></div><div class="cards" id="projectsGrid"></div></div>
-    </section>
-
-    <section class="section alt" id="contact">
-      <div class="container"><div class="section-heading"><p class="eyebrow">Let's work together</p><h2>Contact <span>Me</span></h2></div>
-        <div class="two-column">
-          <div class="panel reveal"><h3>Contact Details</h3><p><strong>Email:</strong> <a href="mailto:sadaffarid069@gmail.com">sadaffarid069@gmail.com</a></p><p><strong>Phone:</strong> <a href="tel:+923176480080">03176480080</a></p><p><strong>Portfolio:</strong> <a href="https://humerasadaf59-lab.github.io" target="_blank" rel="noreferrer">humerasadaf59-lab.github.io</a></p><p><strong>GitHub:</strong> <a href="https://github.com/humerasadaf59-lab" target="_blank" rel="noreferrer">humerasadaf59-lab</a></p><p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/umairasadaf-163aaa2a9" target="_blank" rel="noreferrer">View LinkedIn</a></p></div>
-          <form class="panel contact-form reveal" id="contactForm"><h3>Send a Message</h3><label for="name">Name</label><input id="name" name="name" required><label for="email">Email</label><input id="email" name="email" type="email" required><label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea><button class="btn primary" type="submit">Send Message</button><p id="formStatus" role="status"></p></form>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer><p>© <span id="year"></span> Umaira Sadaf. Built with HTML, CSS, JavaScript and Node.js.</p></footer>
-  <script src="script.js"></script>
+<footer><p>© 2026 Umaira Sadaf - All Rights Reserved</p></footer>
 </body>
 </html>
