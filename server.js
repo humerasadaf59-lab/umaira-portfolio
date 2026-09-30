@@ -166,8 +166,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 const PORT = process.env.PORT || 3001;
-if (require.main === module) {
-  app.listen(PORT, () => console.log(`Server running on ${PORT}`));
-}
+if (require.main === module) 
 module.exports = app;
 
